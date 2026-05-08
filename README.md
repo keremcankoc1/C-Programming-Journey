@@ -35,6 +35,12 @@ A utility tool designed for data analysis.
 #### 5. 💻 Telemetry Data Filter (`telemetry_filter.c`)
 A C-based Linked List filtering system designed to process and store F1 sector times efficiently.
 
+#### 6. 🛡️ Dynamic ECU Limp Mode Simulator (`sensor_data_management.c`)
+**Linked List & File I/O Implementation.** An advanced telemetry parser that mimics a real-world Engine Control Unit (ECU) safety protocol.
+* **Features:** Extracts raw CSV sensor data (Vibration, RPM, Power), safely filters out corrupted rows, and applies a "Limp Mode" mathematical transformation (cutting RPM and Power if vibration exceeds critical thresholds). 
+* **Tech Stack:** File I/O (`fgets`, `fprintf`, safe parsing via `sscanf`), Linked Lists, and complete Dynamic Memory Management (`calloc`, `free`).
+* **Goal:** Demonstrating a robust, crash-resistant ETL (Extract, Transform, Load) pipeline for processing embedded system logs without memory leaks.
+
 ---
 
 ### 🏎️ `vehicle_dynamics`
