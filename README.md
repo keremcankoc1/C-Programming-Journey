@@ -1,6 +1,6 @@
 # 🚀 My C Programming & F1 Engineering Journey
 
-Welcome! I am **Kerem Can KOÇ** (aka `NeweyJunior`), a Freshman Software Engineering student at **Ankara University**.
+Welcome! I am **Kerem Can KOÇ** (aka `keremcankoc1`), a Freshman Software Engineering student at **Ankara University**.
 
 This repository documents my progress in learning the **C programming language**. My goal is to combine my passion for **Formula 1** with software engineering to become a **Motorsport Engineer** or **Embedded Systems Engineer**.
 
